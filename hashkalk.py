@@ -22,6 +22,6 @@ with zipfile.ZipFile(zip_file_path, 'r') as archive:
 		file_hash = md5Kalkulatu(archive.extract(file_info))
 		if "e5ed313192776744b9b93b1320b5e268" == file_hash:
 			print(f'File: {file_name}, MD5: {file_hash}')
-			archive.extract(file_info, "/home/asier/Escritorio/3/segurtasuna/labo1/jpgZuzenak")
+			archive.extract(file_info, "/home/asier/Escritorio/3/segurtasuna/azterketa1_praktika/jpgZuzenak")
 		
 			
